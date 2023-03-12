@@ -1,0 +1,30 @@
+name: rick_and_morty
+description: This is a Flutter project that fetches data from the Rick and Morty API (https://rickandmortyapi.com).
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  auto_size_text: ^3.0.0
+  cached_network_image: ^3.2.3
+  dartz: ^0.10.1
+  dio: ^5.0.1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_screenutil: ^5.6.1
+  get_it: ^7.2.0
+  internet_connection_checker: ^1.0.0+1
+  shared_preferences: ^2.0.18
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
